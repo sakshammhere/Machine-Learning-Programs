@@ -3,7 +3,7 @@ Iris flower classification
 Introduction : 
 This repository contains a machine learning program that classifies iris flowers into different species based on their features.
 The program uses a Random Forest classifier to predict the class of flowers from the Iris dataset.
-
+--------------------------------------------------------------------------------------------------------------------------------
 Dataset: 
 The Iris dataset consists of 150 samples of iris flowers, each with the following features:
 Sepal length (cm)
@@ -13,6 +13,7 @@ Petal width (cm)
 The target variable is the species of the iris flower, which can be one of the following classes:   Setosa (labelled as 0)
                                                                                                     Versicolor (labelled as 1)
                                                                                                     Virginica (labelled as 2)
+--------------------------------------------------------------------------------------------------------------------------------                                                                                                    
 Description:
 Preprocessing the data : 
 X = iris_data.drop(columns=['flower_class'])
